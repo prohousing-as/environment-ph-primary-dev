@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: prohousing-as
+  repo: jx-canary
+  url: https://github.com/prohousing-as/jx-canary.git
+  version: ""
+  versionURL: ""

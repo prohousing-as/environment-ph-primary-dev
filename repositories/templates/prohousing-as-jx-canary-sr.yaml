@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: prohousing-as
+    provider: github
+    repository: jx-canary
+  name: prohousing-as-jx-canary
+spec:
+  description: Imported application for prohousing-as/jx-canary
+  httpCloneURL: https://github.com/prohousing-as/jx-canary.git
+  org: prohousing-as
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-canary
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/prohousing-as/jx-canary.git
