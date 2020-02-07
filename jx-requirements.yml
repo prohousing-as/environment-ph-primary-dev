@@ -1,35 +1,87 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
+bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  environmentGitPublic: false
-  project: ""
-  provider: gke
-  zone: ""
-gitops: true
+  clusterName: ph-primary
+  devEnvApprovers:
+  - ph-git-bot
+  environmentGitOwner: prohousing-as
+  environmentGitPublic: true
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
+  provider: eks
+  region: eu-west-1
+  registry: 591373184090.dkr.ecr.eu-west-1.amazonaws.com
 environments:
-- key: dev
-- key: staging
-- key: production
+- ingress:
+    domain: prohousing.no
+    externalDNS: true
+    ignoreLoadBalancer: true
+    namespaceSubDomain: -jx.
+    tls:
+      email: ian@prohousing.no
+      enabled: true
+      production: true
+  key: dev
+  repository: environment-ph-primary-dev
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: staging
+  repository: environment-ph-primary-staging
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: production
+  repository: environment-ph-primary-production
+gitops: true
 ingress:
-  domain: ""
-  externalDNS: false
+  domain: prohousing.no
+  externalDNS: true
+  ignoreLoadBalancer: true
+  namespaceSubDomain: -jx.
   tls:
-    email: ""
-    enabled: false
-    production: false
+    email: ian@prohousing.no
+    enabled: true
+    production: true
 kaniko: true
-secretStorage: local
+repository: nexus
+secretStorage: vault
 storage:
+  backup:
+    enabled: false
+    url: ""
   logs:
-    enabled: false
-    url: ""
+    enabled: true
+    url: s3://ph-primary-logs-037f031c-c661-4c84-95fe-d05898c0a2b7
   reports:
-    enabled: false
-    url: ""
+    enabled: true
+    url: s3://ph-primary-reports-336d7df5-4b12-463c-b3b6-7f787f00ab16
   repository:
-    enabled: false
-    url: ""
+    enabled: true
+    url: s3://ph-primary-repository-72c77af7-2f62-40d1-b42c-ee1409fa8182
+vault:
+  aws:
+    autoCreate: true
+    iamUserName: ph-jx-vault
+  disableURLDiscovery: true
+velero:
+  schedule: ""
+  ttl: ""
 versionStream:
-  ref: "master"
-  url: https://github.com/jenkins-x/jenkins-x-versions.git
+  ref: 2.0.1139+cjxd.6
+  url: https://github.com/cloudbees/cloudbees-jenkins-x-versions.git
 webhook: prow

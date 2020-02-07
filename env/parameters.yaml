@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:ph-primary/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: ian@prohousing.no
+  token: vault:ph-primary/pipelineUser:token
+  username: ph-git-bot
+prow:
+  hmacToken: vault:ph-primary/prow:hmacToken
