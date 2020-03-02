@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/prohousing-as/jx-canary2.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: prohousing-as
+  repo: jx-test
+  url: https://github.com/prohousing-as/jx-test.git
+  version: ""
+  versionURL: ""
