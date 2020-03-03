@@ -17,3 +17,9 @@ dependencies:
   url: https://github.com/prohousing-as/jx-test.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: prohousing-as
+  repo: ph-istio-deployment
+  url: https://github.com/prohousing-as/ph-istio-deployment.git
+  version: ""
+  versionURL: ""
