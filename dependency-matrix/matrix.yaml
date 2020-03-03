@@ -23,3 +23,9 @@ dependencies:
   url: https://github.com/prohousing-as/ph-istio-deployment.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: prohousing-as
+  repo: istio-test
+  url: https://github.com/prohousing-as/istio-test.git
+  version: ""
+  versionURL: ""
