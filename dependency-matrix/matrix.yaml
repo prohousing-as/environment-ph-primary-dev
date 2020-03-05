@@ -29,3 +29,9 @@ dependencies:
   url: https://github.com/prohousing-as/istio-test.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: prohousing-as
+  repo: ph-group-management-service
+  url: https://github.com/prohousing-as/ph-group-management-service.git
+  version: ""
+  versionURL: ""
