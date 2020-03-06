@@ -8,3 +8,4 @@ Dependency | Sources | Version | Mismatched versions
 [prohousing-as/ph-istio-deployment](https://github.com/prohousing-as/ph-istio-deployment.git) |  | []() | 
 [prohousing-as/istio-test](https://github.com/prohousing-as/istio-test.git) |  | []() | 
 [prohousing-as/ph-group-management-service](https://github.com/prohousing-as/ph-group-management-service.git) |  | []() | 
+[prohousing-as/ph-user-service-serverless](https://github.com/prohousing-as/ph-user-service-serverless.git) |  | []() | 
