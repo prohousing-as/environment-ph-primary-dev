@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: prohousing-as
+    provider: github
+    repository: ph-invoice-service
+  name: prohousing-as-ph-invoice-service
+spec:
+  description: Imported application for prohousing-as/ph-invoice-service
+  httpCloneURL: https://github.com/prohousing-as/ph-invoice-service.git
+  org: prohousing-as
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ph-invoice-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/prohousing-as/ph-invoice-service.git

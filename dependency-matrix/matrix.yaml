@@ -53,3 +53,9 @@ dependencies:
   url: https://github.com/prohousing-as/ph-payments-service-serverless.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: prohousing-as
+  repo: ph-invoice-service
+  url: https://github.com/prohousing-as/ph-invoice-service.git
+  version: ""
+  versionURL: ""
