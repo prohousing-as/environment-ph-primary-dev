@@ -12,3 +12,4 @@ Dependency | Sources | Version | Mismatched versions
 [prohousing-as/ph-auth-service-serverless](https://github.com/prohousing-as/ph-auth-service-serverless.git) |  | []() | 
 [prohousing-as/ph-payments-service-serverless](https://github.com/prohousing-as/ph-payments-service-serverless.git) |  | []() | 
 [prohousing-as/ph-invoice-service](https://github.com/prohousing-as/ph-invoice-service.git) |  | []() | 
+[prohousing-as/ph-m3-service](https://github.com/prohousing-as/ph-m3-service.git) |  | []() | 
