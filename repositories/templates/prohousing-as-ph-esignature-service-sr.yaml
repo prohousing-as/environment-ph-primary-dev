@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: prohousing-as
+    provider: github
+    repository: ph-esignature-service
+  name: prohousing-as-ph-esignature-service
+spec:
+  description: Imported application for prohousing-as/ph-esignature-service
+  httpCloneURL: https://github.com/prohousing-as/ph-esignature-service.git
+  org: prohousing-as
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ph-esignature-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/prohousing-as/ph-esignature-service.git
