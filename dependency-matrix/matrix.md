@@ -15,3 +15,4 @@ Dependency | Sources | Version | Mismatched versions
 [prohousing-as/ph-m3-service](https://github.com/prohousing-as/ph-m3-service.git) |  | []() | 
 [prohousing-as/ph-esignature-service](https://github.com/prohousing-as/ph-esignature-service.git) |  | []() | 
 [prohousing-as/ph-member-service](https://github.com/prohousing-as/ph-member-service.git) |  | []() | 
+[prohousing-as/ph-client-service](https://github.com/prohousing-as/ph-client-service.git) |  | []() | 
