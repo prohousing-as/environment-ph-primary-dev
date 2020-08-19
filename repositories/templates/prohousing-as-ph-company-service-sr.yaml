@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: prohousing-as
+    provider: github
+    repository: ph-company-service
+  name: prohousing-as-ph-company-service
+spec:
+  description: Imported application for prohousing-as/ph-company-service
+  httpCloneURL: https://github.com/prohousing-as/ph-company-service.git
+  org: prohousing-as
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ph-company-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/prohousing-as/ph-company-service.git
