@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: prohousing-as
+    provider: github
+    repository: ph-pre-prod-istio
+  name: prohousing-as-ph-pre-prod-istio
+spec:
+  description: Imported application for prohousing-as/ph-pre-prod-istio
+  httpCloneURL: https://github.com/prohousing-as/ph-pre-prod-istio.git
+  org: prohousing-as
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ph-pre-prod-istio
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/prohousing-as/ph-pre-prod-istio.git
