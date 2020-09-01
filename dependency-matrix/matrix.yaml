@@ -101,3 +101,9 @@ dependencies:
   url: https://github.com/prohousing-as/ph-pre-prod-istio.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: prohousing-as
+  repo: ph-istio
+  url: https://github.com/prohousing-as/ph-istio.git
+  version: ""
+  versionURL: ""
