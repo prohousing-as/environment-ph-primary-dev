@@ -19,3 +19,4 @@ Dependency | Sources | Version | Mismatched versions
 [prohousing-as/ph-supplier-service](https://github.com/prohousing-as/ph-supplier-service.git) |  | []() | 
 [prohousing-as/ph-company-service](https://github.com/prohousing-as/ph-company-service.git) |  | []() | 
 [prohousing-as/ph-pre-prod-istio](https://github.com/prohousing-as/ph-pre-prod-istio.git) |  | []() | 
+[prohousing-as/ph-istio](https://github.com/prohousing-as/ph-istio.git) |  | []() | 
